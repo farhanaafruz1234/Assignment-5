@@ -1,0 +1,103 @@
+/*
+most of the mobile phones
+*/
+
+@media (min-width:320px ) and (max-width:480px ){
+ 
+ /*css start*/
+	 .container{
+		width:100%;
+		
+	}
+	.row{
+		width: 100%;
+		float: left;
+	}
+	.col-6{
+		width: 100%;
+		float: left;
+
+	}
+	.col-12{
+		width: 100%;
+		float: left;
+	}
+	.col-4{
+		width: 100%;
+		float: left;
+	}
+
+ /*css end*/
+}
+/*
+most of the mobile phones potrait mode ans low resulation tablets
+*/
+
+@media (min-width:481px ) and (max-width:767px ){
+/*css start*/
+
+.container{
+		width:100%;
+		
+	}
+	.row{
+		width: 100%;
+		float: left;
+	}
+	.col-6{
+		width: 100%;
+		float: left;
+
+	}
+	.col-12{
+		width: 100%;
+		float: left;
+	}
+	.col-4{
+		width: 100%;
+		float: left;
+	}
+
+	 .header .nav{
+	 	text-align: left;
+	 }
+	.header .nav li a{
+		font-size: 12px;
+		margin: 0px 0px 0px 20px;
+
+	}
+	.banner{
+		padding: 30px 0px;
+	}
+	.banner h1{
+
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.inner-feature{
+		margin-bottom: 20px;
+	}
+	.footer p{
+		font-size: 11px;
+	}
+
+ /*css end*/
+
+}
+
+/*
+most of the tablets and notebook
+*/
+
+@media (min-width:768px ) and (max-width:1024px ){
+/*css start*/
+
+.container{
+		width:80%;
+		
+	}
+	
+
+ /*css end*/
+
+}
